@@ -1,1 +1,37 @@
 This file is used to discribe the specific functions and settings of our proposed approach.
+1. Requirements
+--->numpy (1.13.3)
+--->chainer (3.1.0)
+--->matplotlib (2.1.0)
+--->pandas (0.20.3)
+
+2. Description of the files and folders.
+--->data|Temporary folder for storing the intermediate files.
+--->datasets|All the datasets saved in this directory.
+--->models|All the trained models are saved in this directory.
+--->criteria.py|Script for evaluation measures.
+--->DHSEE.py|Script for dynamic HSEE scenario with filter strategy.
+--->DHSEE-.py|Script for dynamic HSEE scenario without CNN layers.
+--->DHSEE_star.py|Script for dynamic HSEE scenario without filter strategy.
+--->SHSEE.py|Script for static HSEE scenario.
+--->read_data_validations.py|Script for data reading.
+--->handleResult.py|Script to process the results.
+
+3. How to run this code
+The implemented code of our DHSEE approach can be found in the file of DHSEE.py.  
+If you want to run other versions of DHSEE such as DHSEE- or DHSEE*, you can select it according to the 2.  Description of the files and folders.
+There are several parameters you should pay attention such as data_set_name, batch_size and validation_patience_original.
+There are some feasible parameters：
+                                                        Table 1 parameters settings
+                                      -----------------------------------------------------------
+                                      data_set	  |  batchsize 	 | validation_patience_original
+                                      -----------------------------------------------------------
+                                      china	      |      50	     |              30
+                                      kitchenham	|      15	     |              20
+                                      albrecht	  |      5	     |              300
+                                      maxwell	    |      15	     |              30
+                                      cocnas	    |      15	     |              40
+                                      opens	      |      15	     |              30
+                                      kemerer	    |      10	     |              5
+                                      miyazaki94	|      15	     |              200
+                                      -----------------------------------------------------------
