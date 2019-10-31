@@ -9,13 +9,14 @@ This file is used to discribe the specific functions and settings of our propose
 --->data|Temporary folder for storing the intermediate files.
 --->datasets|All the datasets saved in this directory.
 --->models|All the trained models are saved in this directory.
---->criteria.py|Script for evaluation measures.
---->DHSEE.py|Script for dynamic HSEE scenario with filter strategy.
---->DHSEE-.py|Script for dynamic HSEE scenario without CNN layers.
---->DHSEE_star.py|Script for dynamic HSEE scenario without filter strategy.
---->SHSEE.py|Script for static HSEE scenario.
---->read_data_validations.py|Script for data reading.
---->handleResult.py|Script to process the results.
+--->code|The implemented code files of our approach are stored in this directory.
+------>criteria.py|Script for evaluation measures.
+------>DHSEE.py|Script for dynamic HSEE scenario with filter strategy.
+------>DHSEE-.py|Script for dynamic HSEE scenario without CNN layers.
+------>DHSEE_star.py|Script for dynamic HSEE scenario without filter strategy.
+------>SHSEE.py|Script for static HSEE scenario.
+------>read_data_validations.py|Script for data reading.
+------>handleResult.py|Script to process the results.
 
 3. How to run this code
 The implemented code of our DHSEE approach can be found in the file of DHSEE.py.  
