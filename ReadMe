@@ -22,16 +22,17 @@ The implemented code of our DHSEE approach can be found in the file of DHSEE.py.
 If you want to run other versions of DHSEE such as DHSEE- or DHSEE*, you can select it according to the 2.  Description of the files and folders.
 There are several parameters you should pay attention such as data_set_name, batch_size and validation_patience_original.
 There are some feasible parameters：
-                                                        Table 1 parameters settings
-                                      -----------------------------------------------------------
-                                      data_set	  |  batchsize 	 | validation_patience_original
-                                      -----------------------------------------------------------
-                                      china	      |      50	     |              30
-                                      kitchenham	|      15	     |              20
-                                      albrecht	  |      5	     |              300
-                                      maxwell	    |      15	     |              30
-                                      cocnas	    |      15	     |              40
-                                      opens	      |      15	     |              30
-                                      kemerer	    |      10	     |              5
-                                      miyazaki94	|      15	     |              200
-                                      -----------------------------------------------------------
+
+Table 1 parameters settings
+-----------------------------------------------------------
+data_set	  |  batchsize 	 | validation_patience_original
+-----------------------------------------------------------
+china	      |      50	     |              30
+kitchenham	|      15	     |              20
+albrecht	  |      5	     |              300
+maxwell	    |      15	     |              30
+cocnas	    |      15	     |              40
+opens	      |      15	     |              30
+kemerer	    |      10	     |              5
+miyazaki94	|      15	     |              200
+-----------------------------------------------------------
